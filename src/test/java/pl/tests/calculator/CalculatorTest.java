@@ -16,13 +16,13 @@ class CalculatorTest {
     }
 
     @Test
-    public void testAdd(){
+    public void addTest(){
         int result = calculator.add(3,5);
         assertEquals(8,result);
     }
 
     @Test
-    public void testAdd2(){
+    public void addIITest(){
         int result = calculator.add(3,5);
 
         assertNotNull(calculator);
